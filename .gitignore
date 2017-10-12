@@ -1,0 +1,6 @@
+venv/**
+*.pyc
+.idea/**
+*.html
+clones/assignment1/**
+data/assignment1_files/**
