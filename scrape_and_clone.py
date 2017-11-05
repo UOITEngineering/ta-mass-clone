@@ -42,6 +42,7 @@ def clone_repos(name, urls, repos, hashes):
 	parent_dir = '../../../'
 	hash_command = 'git reset --hard %s'
 	for index, url in enumerate(urls):
+		print('%d/%d' % (index, len(urls)))
 		repo = repos[index]
 		hash = hashes[index]
 
@@ -56,7 +57,7 @@ def clone_repos(name, urls, repos, hashes):
 			os.chdir(parent_dir)
 		except Exception as err:
 			print(err)
-		time.sleep(2)
+		time.sleep(5)
 
 
 if __name__ == '__main__':
