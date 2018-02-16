@@ -1,6 +1,10 @@
 # ta-mass-clone
 Using beautiful soup and python scripting, mass clone student repositories
 
+## SSH Setup
+
+- [Setup](https://help.github.com/articles/connecting-to-github-with-ssh/)
+
 # Setup
 
 1. The glob scripting requires python 3.6, so use this to enable virtual env for python 3
